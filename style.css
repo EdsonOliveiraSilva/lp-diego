@@ -1,0 +1,157 @@
+body {
+  font-family: "Opens Sans";
+  font-size: 18px;
+  background-color: gray;
+}
+
+.divBlack {
+  background-color: black;
+}
+
+/*.divGray {
+  background-color: gray;
+}*/
+
+#divSessaoVideo h1 {
+  font-weight: 800;
+  font-size: 32px;
+  color: #C0A63C;
+  text-align: center;
+}
+
+#divSessaoVideo p {
+  color: white;
+  text-align: center;
+}
+
+.botao {
+  text-align: center;
+}
+
+.btn-danger {
+  background-color: #C0A63C;
+  color: black;
+  text-align: center;
+  border: 1px solid #C0A63C;
+  border-radius: 6px;
+  font-size: 18px;
+  padding: 10px 100px;
+}
+
+#divSessaoContagemRegressiva p {
+
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  margin: 0;
+  padding: 1px;
+}
+
+#divSessaoParaQuem h2 {
+  font-weight: 800;
+  font-size: 32px;
+  color: #C0A63C;
+  text-align: center;
+}
+
+#divSessaoParaQuem ul {
+  color: white;
+  font-size: 18px;
+  margin: 0;
+
+}
+
+#divSessaoQuemE h2 {
+  font-weight: 800;
+  font-size: 32px;
+  color: #C0A63C;
+  text-align: center;
+}
+
+#divSessaoQuemE ul {
+  color: white;
+  font-size: 18px;
+  margin: 0;
+}
+
+.img {
+  padding: 10px 100px;
+}
+
+#divSessaoOqueE {
+  color: white;
+  font-size: 18px;
+
+}
+
+#divSessaoOqueE h2 {
+  font-weight: 800;
+  font-size: 32px;
+  color: #C0A63C;
+  text-align: center;
+}
+
+#divSessaoBonus h2 {
+  font-weight: 800;
+  font-size: 32px;
+  color: #C0A63C;
+  text-align: center;
+}
+
+#divSessaoBonus ul {
+  color: white;
+  font-size: 18px;
+  margin: 0;
+}
+
+#divSessaoNaoPodePerder h2 {
+  font-weight: 800;
+  font-size: 32px;
+  color: #C0A63C;
+  text-align: center;
+}
+
+#divSessaoNaoPodePerder p {
+  color: white;
+  font-size: 18px;
+  margin: 0;
+  text-align: center;
+}
+
+#divSessaoDepoimentos h2 {
+  font-weight: 800;
+  font-size: 32px;
+  color: #C0A63C;
+  text-align: center;
+}
+
+#divSessaoDepoimentos p {
+  color: white;
+  font-size: 18px;
+  margin: 0;
+  text-align: justify;
+}
+
+#divSessaoGarantia h2 {
+  font-weight: 800;
+  font-size: 32px;
+  color: #C0A63C;
+  text-align: center;
+}
+
+#divSessaoGarantia p {
+  color: white;
+  font-size: 18px;
+  margin: 0;
+  text-align: center;
+}
+
+.img7 {
+  text-align: center;
+}
+
+footer p{
+  text-align: center;
+  padding: 3px;
+  color: black;
+}
