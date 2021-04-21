@@ -1,7 +1,7 @@
 body {
   font-family: "Opens Sans";
   font-size: 18px;
-  
+
 }
 
 .divBlack {
@@ -35,7 +35,7 @@ body {
   border: 1px solid #C0A63C;
   border-radius: 6px;
   font-size: 18px;
-  
+
 }
 
 #divSessaoContagemRegressiva p {
@@ -75,7 +75,12 @@ body {
 }
 
 .img {
-  padding: 10px 100px;
+  width: 350px;
+  height: 350px;
+  object-fit: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
 }
 
 #divSessaoOqueE {
@@ -90,6 +95,16 @@ body {
   color: #C0A63C;
   text-align: center;
 }
+
+#imgAprender {
+ 
+  
+  object-fit: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
 
 #divSessaoBonus h2 {
   font-weight: 800;
@@ -147,20 +162,19 @@ body {
 }
 
 .img7 {
-  
+
   width: 300px;
   height: 300px;
   object-fit: none;
   display: block;
-    margin-left: auto;
-    margin-right: auto 
-  
+  margin-left: auto;
+  margin-right: auto
 }
 
+.padding55{
+  padding-bottom: 55px;
+}
 
-footer p{
-  text-align: center;
-  
-  color: black;
-  background-color: gray;
+.padding35{
+  padding-bottom: 35px;
 }
