@@ -1,16 +1,16 @@
 body {
   font-family: "Opens Sans";
   font-size: 18px;
-  background-color: gray;
+  
 }
 
 .divBlack {
   background-color: black;
 }
 
-/*.divGray {
-  background-color: gray;
-}*/
+.divGray {
+  background-color: #282828;
+}
 
 #divSessaoVideo h1 {
   font-weight: 800;
@@ -147,11 +147,20 @@ body {
 }
 
 .img7 {
-  text-align: center;
+  
+  width: 300px;
+  height: 300px;
+  object-fit: none;
+  display: block;
+    margin-left: auto;
+    margin-right: auto 
+  
 }
+
 
 footer p{
   text-align: center;
-  padding: 3px;
+  
   color: black;
+  background-color: gray;
 }
