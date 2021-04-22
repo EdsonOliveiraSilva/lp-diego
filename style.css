@@ -45,13 +45,12 @@ html, body {
 
 }
 
-#divSessaoContagemRegressiva p {
+#divSessaoContagemRegressiva h2 {
 
-  color: white;
-  font-size: 18px;
+  font-weight: 800;
+  font-size: 32px;
+  color: #C0A63C;
   text-align: center;
-  margin: 0;
-  padding: 1px;
 }
 
 #divSessaoParaQuem h2 {
@@ -103,9 +102,7 @@ html, body {
   text-align: center;
 }
 
-#imgAprender {
- 
-  
+#imgAprender {  
   object-fit: none;
   display: block;
   margin-left: auto;
