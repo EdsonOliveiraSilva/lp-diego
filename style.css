@@ -35,12 +35,14 @@ html, body {
   text-align: center;
 }
 
-.btn-danger {
+.btn-warning {
   background-color: #C0A63C;
   color: black;
   text-align: center;
-  border: 1px solid #C0A63C;
-  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 800;
+  border: 2px solid #cd8838;
+  border-radius: 26px;
   font-size: 18px;
 
 }
