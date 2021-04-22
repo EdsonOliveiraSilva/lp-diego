@@ -1,8 +1,14 @@
+@viewport{
+  zoom: 1.0;
+  width: device-width;
+}
+
 html, body {
   font-family: "Opens Sans";
   font-size: 18px;
   margin: none;
   padding: none;
+  border: none;
 }
 
 .divBlack {
