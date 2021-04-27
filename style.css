@@ -1,190 +1,280 @@
-@viewport{
-  zoom: 1.0;
-  width: device-width;
+@viewport {
+    zoom: 1.0;
+    width: device-width;
 }
 
 html, body {
-  font-family: "Opens Sans";
-  font-size: 18px;
-  margin: none;
-  padding: none;
-  border: none;
+    font-family: "Opens Sans";
+    font-size: 18px;
+    margin: none;
+    padding: none;
+    border: none;
 }
 
 .divBlack {
-  background-color: black;
+    background-color: black;
+    padding-bottom: 15px;
 }
 
 .divGray {
-  background-color: #282828;
+    background-color: #333;
+    padding-bottom: 15px;
 }
 
 #divSessaoVideo h1 {
-  font-weight: 800;
-  font-size: 32px;
-  color: #C0A63C;
-  text-align: center;
+    font-weight: 800;
+    font-size: 32px;
+    color: #C0A63C;
+    text-align: center;
 }
 
 #divSessaoVideo p {
-  color: white;
-  text-align: center;
+    color: white;
+    text-align: center;
 }
 
 .botao {
-  text-align: center;
+    text-align: center;
 }
 
-.btn-warning {
-  background-color: #C0A63C;
-  color: black;
-  text-align: center;
-  font-size: 12px;
-  font-weight: 800;
-  border: 2px solid #cd8838;
-  border-radius: 26px;
-  font-size: 18px;
+.btn-danger {
+    background-color: #FF0E20;
+    box-shadow: 0px 0px 10px 4px rgb(255 255 255 / 48%);
+}
 
+    .btn-danger:hover {
+        background-color: #FF0E20;
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+
+#divSessaoContagemRegressiva p {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+    padding: 1px;
 }
 
 #divSessaoContagemRegressiva h2 {
-
-  font-weight: 800;
-  font-size: 32px;
-  color: #C0A63C;
-  text-align: center;
+    font-weight: 800;
+    font-size: 32px;
+    color: #C0A63C;
+    text-align: center;
 }
+
 
 #divSessaoParaQuem h2 {
-  font-weight: 800;
-  font-size: 32px;
-  color: #C0A63C;
-  text-align: center;
+    font-weight: 800;
+    font-size: 32px;
+    color: #C0A63C;
+    text-align: center;
 }
 
-#divSessaoParaQuem ul {
-  color: white;
-  font-size: 18px;
-  margin: 0;
-
+#divSessaoParaQuem p {
+    color: white;
+    font-size: 18px;
+    margin: 0;
 }
 
 #divSessaoQuemE h2 {
-  font-weight: 800;
-  font-size: 32px;
-  color: #C0A63C;
-  text-align: center;
+    font-weight: 800;
+    font-size: 32px;
+    color: #C0A63C;
 }
 
 .ul {
-  color: white;
-  font-size: 18px;
-  margin: 0;
+    color: white;
+    font-size: 18px;
+    margin: 0;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+li {
+    padding-bottom: 15px;
 }
 
 .img {
-  width: 350px;
-  height: 350px;
-  object-fit: none;
-  display: block;
-  margin-left: auto;
-  margin-right: auto
+    width: 350px;
+    height: 350px;
+    object-fit: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
 }
+
+.imgPayment {
+    object-fit: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 #divSessaoOqueE {
-  color: white;
-  font-size: 18px;
-
+    color: white;
+    font-size: 18px;
 }
 
-#divSessaoOqueE h2 {
-  font-weight: 800;
-  font-size: 32px;
-  color: #C0A63C;
-  text-align: center;
-}
+    #divSessaoOqueE h2 {
+        font-weight: 800;
+        font-size: 32px;
+        color: #C0A63C;
+        text-align: center;
+    }
 
-#imgAprender {  
-  object-fit: none;
-  display: block;
-  margin-left: auto;
-  margin-right: auto
+#imgAprender {
+    object-fit: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 }
 
 
 #divSessaoBonus h2 {
-  font-weight: 800;
-  font-size: 32px;
-  color: #C0A63C;
-  text-align: center;
+    font-weight: 800;
+    font-size: 32px;
+    color: #C0A63C;
+    text-align: center;
 }
 
-#divSessaoBonus ul {
-  color: white;
-  font-size: 18px;
-  margin: 0;
+#divSessaoBonus p {
+    color: white;
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+#divSessaoBonus i {
+    color: white;
 }
 
 #divSessaoNaoPodePerder h2 {
-  font-weight: 800;
-  font-size: 32px;
-  color: #C0A63C;
-  text-align: center;
+    font-weight: 800;
+    font-size: 32px;
+    color: #C0A63C;
+    text-align: center;
 }
 
+#divSessaoNaoPodePerder h4 {
+    color: white;
+}
+
+#divSessaoNaoPodePerder s {
+    color: #FF0E20;
+}
+
+.valorAtual {
+    font-weight: 800;
+    font-size: 52px;
+    color: #C0A63C;
+    text-align: center;
+}
 #divSessaoNaoPodePerder p {
-  color: white;
-  font-size: 18px;
-  margin: 0;
-  text-align: center;
+    color: white;
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
 }
 
 #divSessaoDepoimentos h2 {
-  font-weight: 800;
-  font-size: 32px;
-  color: #C0A63C;
-  text-align: center;
+    font-weight: 800;
+    font-size: 32px;
+    color: #C0A63C;
+    text-align: center;
 }
 
 #divSessaoDepoimentos p {
-  color: white;
-  font-size: 18px;
-  margin: 0;
-  text-align: justify;
+    color: white;
+    font-size: 18px;
+    margin: 0;
+    text-align: justify;
 }
 
 #divSessaoGarantia h2 {
-  font-weight: 800;
-  font-size: 32px;
-  color: #C0A63C;
-  text-align: center;
+    font-weight: 800;
+    font-size: 32px;
+    color: #C0A63C;
+    text-align: center;
 }
 
 #divSessaoGarantia p {
-  color: white;
-  font-size: 18px;
-  margin: 0;
-  text-align: center;
+    color: white;
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
 }
 
+#divSessaoFinal p {
+    padding-top: 15px;
+    color: white;
+}
 
 .img7 {
-
-  width: 300px;
-  height: 300px;
-  object-fit: none;
-  display: block;
-  margin-left: auto;
-  margin-right: auto
+    width: 300px;
+    height: 300px;
+    object-fit: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 }
 
-.padding55{
-  padding-bottom: 55px;
+.padding55 {
+    padding-bottom: 55px;
 }
 
-.padding35{
-  padding-bottom: 35px;
+.padding35 {
+    padding-bottom: 35px;
 }
+
+.padding15 {
+    padding-bottom: 15px;
+}
+
+.card {
+    border-style: solid;
+    border-color: #C0A63C;
+    background-color: white;
+    border-radius: 30px 15px;
+}
+
+.card p {
+    color: black !important;
+    padding: 10px;
+}
+
+ul#example {
+    list-style: none;
+    padding: 0;
+    display: block;
+    text-align: center;
+  }
+  
+  ul#example li { display: inline-block; }
+  
+  ul#example li span {
+    font-size: 80px;
+    font-weight: 300;
+    line-height: 80px;
+    color: #C0A63C;
+  }
+  
+  ul#example li.seperator {
+    font-size: 80px;
+    line-height: 70px;
+    vertical-align: top;
+  }
+  
+  ul#example li p {
+    color: #C0A63C;
+    font-size: 25px;
+  }
+
+  strong {
+      color: #C0A63C;
+  }
 
 /*.copy{
   color: grey;
